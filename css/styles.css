@@ -1,0 +1,138 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/***MENU***/
+#menu{
+    font-size: 18px ;
+    font-weight: bold;
+    
+}
+
+#menu a{
+    color: #3f3f3f;
+}
+
+#logo{
+    font-size: 30px;
+    padding: 0 8px;
+    color:#1b2a4e;
+}
+
+/***SLIDER***/
+.carousel-inner{
+    max-height: 39rem;
+}
+
+/*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
+
+#img-equipo{
+    max-height:30rem !important;
+    width:50%;
+}
+.margen{
+    margin-bottom: 15rem;
+}
+
+/*=========================CONTACTOS BACKGROUND================================*/
+#bg-contacto{
+    position:relative;
+    top: -130px;
+} 
+
+ #seccion-contacto{
+    background-color: #1b2a4e;
+    min-height:500px;
+    position:relative;
+}
+
+/*=========================CONTACTOS FORMULARIO================================*/
+
+ #contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+    
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+} 
+
+/*=========================FOOTER================================*/
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+  
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+ 
+}
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+
+@media (max-width:768px) {
+
+    #intro, #equipo{
+        width:90% !important;
+        margin:auto;
+    }
+
+    
+    #img-equipo{
+        max-height:20rem !important;
+        width:90%;
+    }
+    #bg-contacto{
+        top: -120px;
+    }
+
+
+}
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width:100% !important;
+    }
+    #servicios-fila-1 {
+        width:100% !important;
+    }
+
+    #bg-contacto{
+        top: -110px;
+    } 
+
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+        text-align: center;
+    }
+
+}
